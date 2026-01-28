@@ -23,10 +23,6 @@ const EngineeringIcons = ({ icons, activeIndex }) => {
           </div>
         ))}
       </div>
-
-      <span className="text-white text-sm font-medium">
-        Unified Engineering Strategy
-      </span>
     </div>
   );
 };

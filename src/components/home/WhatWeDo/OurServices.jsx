@@ -163,13 +163,13 @@ export default function OurServices({ horizontalRef }) {
               </div>
 
               <div className="mt-6 text-[10px] text-mainGold tracking-[0.5em] uppercase animate-pulse">
-                System Sync Active
+                Mosaic Engineering LTD
               </div>
             </div>
 
             {/* SIDEBAR */}
             <div className="absolute right-0 top-0 h-full w-16 hidden md:flex flex-col items-center justify-center gap-12">
-              <Fingerprint size={18} className="text-mainGold opacity-50" />
+              <Cpu size={18} className="text-mainGold opacity-50" />
               <div className="h-24 w-px bg-mainColor/30" />
               <div className="h-24 w-px bg-mainColor/30" />
               <Cpu size={18} className="text-mainGold opacity-50" />
