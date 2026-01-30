@@ -39,7 +39,7 @@ export default function OurServices({ horizontalRef }) {
       =============================== */
       mm.add("(min-width: 1024px)", () => {
         const cards = gsap.utils.toArray(
-          horizontalRef.current.querySelectorAll(".logo-card")
+          horizontalRef.current.querySelectorAll(".logo-card"),
         );
 
         cards.forEach((card) => {
@@ -67,7 +67,7 @@ export default function OurServices({ horizontalRef }) {
                 duration: 0.8,
                 ease: "power2.inOut",
               },
-              "<"
+              "<",
             )
             .to({}, { duration: 2 })
             .to(orig, {
@@ -83,7 +83,7 @@ export default function OurServices({ horizontalRef }) {
                 duration: 0.8,
                 ease: "power2.inOut",
               },
-              "<"
+              "<",
             );
         });
       });
@@ -137,7 +137,7 @@ export default function OurServices({ horizontalRef }) {
                 {service.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-4 py-2 text-xs border border-mainColor/30 text-mainGold"
+                    className="px-4 py-2 text-xs border border-mainColor/30 text-mainGold transition-colors duration-300 hover:border-mainGold hover:bg-mainGold hover:text-black"
                   >
                     {tag}
                   </span>

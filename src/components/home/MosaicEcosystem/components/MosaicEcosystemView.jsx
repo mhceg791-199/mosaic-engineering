@@ -62,17 +62,17 @@ const MosaicEcosystemView = ({ containerRef, visualRef, lineRef }) => {
           <div ref={visualRef} className="lg:w-1/2 relative">
             <div className="relative w-[320px] h-[440px] mx-auto">
               <div className="mosaic-piece layer-floating absolute inset-0 bg-mainColor p-8 text-white shadow-2xl">
-                <h3 className="text-4xl font-black italic">MOSAIC SYSTEM</h3>
+                <h3 className="text-4xl font-black italic">MOSAIC CORE</h3>
               </div>
 
-              <div className="mosaic-piece absolute -bottom-8 -left-10 bg-white p-6 md:pr-16 shadow-xl">
+              <div className="mosaic-piece text-base absolute -bottom-8 -left-10 bg-white p-6 md:pr-20 shadow-xl">
                 <Workflow className="text-mainGold mb-2" />
-                Collaboration
+                INTEGRATED <br/> WORKFLOWS
               </div>
 
               <div className="mosaic-piece absolute top-16 -right-8 bg-slate-900 p-6 text-white md:pr-16 shadow-xl">
                 <ShieldCheck className="text-mainGold mb-2" />
-                Quality
+                
               </div>
             </div>
           </div>

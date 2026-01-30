@@ -19,7 +19,7 @@ export const content = [
     image: expertise,
   },
   {
-    title: "CONSISTENT APPROACH",
+    title: "PROVEN DELIVERY MODEL",
     subtitle: "Engineering That Holds Up",
     desc: "No matter the location, our approach remains the same: clear systems, disciplined delivery, and engineering that holds up.",
     icon: <Globe2 className="w-8 h-8" />,
