@@ -39,7 +39,7 @@ const HeroContent = ({ textRef }) => {
         ref={(el) => (textRef.current[3] = el)}
         className="max-w-2xl text-lg text-mainGold/80"
       >
-        Integrated mechanical, electrical, and structural engineering for
+        Integrated structural, mechanical, and electrical engineering for
         complex projects worldwide.
       </p>
     </div>

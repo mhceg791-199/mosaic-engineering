@@ -10,7 +10,7 @@ function About() {
   const paragraphs = [
   "Mosaic Engineering started with a simple observation: engineering works best when it works together.",
 
-  "Too often, mechanical, electrical, and structural systems are designed in isolation — coordinated late, adjusted under pressure, and forced to fit. Mosaic Engineering was created to challenge that approach.",
+  "Too often, structural, mechanical, and electrical systems are designed in isolation — coordinated late, adjusted under pressure, and forced to fit. Mosaic Engineering was created to challenge that approach.",
 
   <>
     Built as part of{" "}

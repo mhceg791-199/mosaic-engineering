@@ -20,7 +20,7 @@ const IntegratedDeliveryContent = () => {
         </p>
 
         <p className="text-gray-400 border-l-2 border-mainGold pl-5 italic bg-white/5 py-4 rounded-r-xl">
-          Mechanical, electrical, and structural teams operate as a single
+          Structural, mechanical, and electrical teams operate as a single
           coordinated unit — aligning decisions early and maintaining that
           alignment throughout the project lifecycle.
         </p>

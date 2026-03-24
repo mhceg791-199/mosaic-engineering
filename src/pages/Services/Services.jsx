@@ -6,7 +6,7 @@ import FirstSectionByVideo from "../../components/shared/FirstSectionByVideo/Fir
 
 export default function Services() {
   const paragraphs = [
-    "Mosaic Engineering delivers integrated mechanical, electrical, and structural engineering services designed to work as one coordinated system.",
+    "Mosaic Engineering delivers integrated structural, mechanical, and electrical engineering services designed to work as one coordinated system.",
     "Our services support complex projects across diverse sectors, ensuring technical clarity, operational efficiency, and long-term performance from concept through execution."
     ];
 

@@ -12,7 +12,7 @@ const OverviewContent = () => {
         <div className="lg:col-span-7 space-y-10">
           <p className="reveal-text text-lg leading-relaxed text-black/80">
             Mosaic Engineering is a multidisciplinary engineering firm delivering
-            integrated mechanical, electrical, and structural engineering
+            integrated structural, mechanical, and electrical engineering
             solutions across complex projects and diverse sectors.
           </p>
         </div>

@@ -5,6 +5,13 @@ import { Settings, Zap, Building2 } from "lucide-react";
 
 const services = [
   {
+    title: "STRUCTURAL ENGINEERING",
+    icon: <Building2 size={48} className="text-mainGold" />,
+    desc: "Clear, efficient structural systems engineered for strength, constructability, and long-term performance.",
+    tags: ["Steel Structures", "Wood Structures", "Concrete Structures", "Hybrid Structures"],
+    mechImg: structural,
+  },
+  {
     title: "MECHANICAL ENGINEERING",
     icon: <Settings size={48} className="text-mainGold" />,
     desc: "Design and coordination of high-performance mechanical systems that support efficiency, comfort, and operational reliability.",
@@ -18,12 +25,6 @@ const services = [
     tags: ["Power Distribution", "Lighting Control Systems", "Renewable Energy Systems"],
     mechImg: electrical,
   },
-  {
-    title: "STRUCTURAL ENGINEERING",
-    icon: <Building2 size={48} className="text-mainGold" />,
-    desc: "Clear, efficient structural systems engineered for strength, constructability, and long-term performance.",
-    tags: ["Foundation Design", "Steel Structures", "Concrete Structures"],
-    mechImg: structural,
-  },
+  
 ];
 export default services;

@@ -4,7 +4,7 @@ export const whyMosaicPoints = [
     {
       id: "01",
       title: "One Coordinated Unit",
-      text: "We work as one coordinated unit — aligning mechanical, electrical, and structural engineering early and maintaining that alignment throughout the project lifecycle.",
+      text: "We work as one coordinated unit — aligning structural, mechanical, and electrical engineering early and maintaining that alignment throughout the project lifecycle.",
       icon: <Layers size={24} />,
     },
     {
