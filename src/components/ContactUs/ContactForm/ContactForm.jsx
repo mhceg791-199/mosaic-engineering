@@ -76,7 +76,7 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               placeholder="Your Name"
-              className="w-full px-4 py-3 rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
+              className="w-full px-4 py-3 text-black rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
             />
           </div>
 
@@ -91,7 +91,7 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               placeholder="Your Email"
-              className="w-full px-4 py-3 rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
+              className="w-full px-4 py-3 text-black rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all"
             />
           </div>
 
