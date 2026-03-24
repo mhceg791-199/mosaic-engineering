@@ -21,7 +21,7 @@ export default function ContactForm() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/contact/send", {
+      const res = await fetch("https://mhc-backend-ten.vercel.app/api/contact/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
