@@ -4,6 +4,13 @@ import SectionHeader from "../../shared/SectionHeaders/SectionHeader";
 
 function ReadyToJoin() {
 
+  const scrollToApplication = () => {
+    const element = document.getElementById("application-form-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="relative md:py-12 overflow-hidden bg-black text-white">
       <motion.div
@@ -35,12 +42,11 @@ function ReadyToJoin() {
 
         <div className="text-center mt-8 mb-2">
           <button
-            // onClick={openModal}
+            onClick={scrollToApplication}
             className="btn-boder-white"
           >
             JOIN OUR TEAM
           </button>
-          {/* <CareerModal /> */}
         </div>
       </div>
     </section>
