@@ -1,11 +1,9 @@
-
 import "./sectionHeader.css";
 import { Link } from "react-router-dom";
 
 function SectionHeader({
   firstWord,
   secondWord,
-  fontSize = "large",
   type = "horizontal",
   line = true,
   link = "",
