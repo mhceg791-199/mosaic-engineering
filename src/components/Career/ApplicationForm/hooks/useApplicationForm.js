@@ -10,8 +10,8 @@ const initialFormState = {
   experience: "",
   portfolio: "",
   coverLetter: "",
-  siteName: "Indigenous Mosaic",
-  siteURL: "https://www.indigenousmosaic.com",
+  siteName: "Mosaic Engineering",
+  siteURL: "https://mosaic-eng.com",
 };
 
 export const useApplicationForm = () => {
