@@ -13,7 +13,6 @@ const initialFormState = {
   siteName: "Mosaic Engineering",
   siteURL: "https://mosaic-eng.com",
 };
-
 export const useApplicationForm = () => {
   const [formData, setFormData] = useState(initialFormState);
   const [resume, setResume] = useState(null);
